@@ -2,3 +2,10 @@ Phaser is our framework
 - A foundation around which you build your game
 An engine is...
 - Full feature toolset upon which you build an app
+
+init() - prepares any data for the scene
+preload() - prepares any assets we'll need for the scene
+create() - adds assets to the scene
+update() - loop run continuously at (hopefully) our chosen frame rate
+
+this = context of our current function
