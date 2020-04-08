@@ -1,0 +1,4 @@
+Phaser is our framework
+- A foundation around which you build your game
+An engine is...
+- Full feature toolset upon which you build an app
