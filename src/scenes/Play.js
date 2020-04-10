@@ -23,4 +23,10 @@ class Play extends Phaser.Scene{
         //green UI background
         this.add.rectangle(37, 42, 566, 64, 0x00FF00).setOrigin(0, 0);
     }
+
+    //Update: called every frame
+    update(){
+        //scroll starfield
+        this.starfield.tilePositionX -= 4;
+    }
 }
